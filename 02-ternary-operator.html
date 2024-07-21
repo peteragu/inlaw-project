@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        
+    <button onclick="
+    check()
+        ">
+click me
+    </button>
+    <p class="reign"></p>
+
+    <script>
+        
+        let textmessage=""
+        
+            function check() {
+        let open= prompt('input your age', 'type')
+  var result = (open>= 18 )? textmessage="Eligible to vote" :textmessage= "not eligible";
+  
+    
+    
+document.querySelector('.reign').innerHTML=textmessage
+    }
+    </script>
+    
+</body>
+</html>

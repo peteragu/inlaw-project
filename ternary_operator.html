@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="
+    checkEvenOrOdd()
+        ">
+click me
+    </button>
+    <p class="main"></p>
+
+    <script>
+        
+        let textmessage=""
+        
+            function checkEvenOrOdd() {
+        let operator= prompt('input your values', 'number')
+  var result = (operator % 2 === 0 )? textmessage="even number" :textmessage= "odd number";
+  
+    
+    
+document.querySelector('.main').innerHTML=textmessage
+    }
+    </script>
+</body>
+</html>

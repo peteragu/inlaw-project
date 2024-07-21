@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="find()
+        
+        ">click to Start</button>
+    <p class="input"></p>
+<script>
+    
+let text=''
+      function find(){  
+
+
+  let pr= prompt('imput your value', 'odd or even number')
+
+  if (pr>=90 && pr <=100){
+     text='your score is = A'
+    
+}
+else if (pr >=80 && pr <= 89){
+     text='your score= B'
+    
+}
+else if(pr>=70 &&pr <=79){
+    text='your score =C'
+
+}
+else if(pr>=60 && pr<=69){
+    text='your score = D'
+
+}
+else if(pr>=0 && pr<=59){
+    text='your score = E  '
+
+}
+
+
+ document.querySelector('.input').innerHTML=text
+      }
+
+      
+    </script>
+</body>
+</html>

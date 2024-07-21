@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="find()
+        
+        ">click to Start</button>
+    <p class="input"></p>
+<script>
+    
+let text=''
+      function find(){  
+
+
+  let pr= prompt('imput your value', 'odd or even number')
+
+  if (pr% 2===0){
+     text='even number'
+    
+}
+else if (pr % 2===1){
+     text='odd number'
+    
+}
+
+ document.querySelector('.input').innerHTML=text
+      }
+
+   
+    </script>
+</body>
+</html>
